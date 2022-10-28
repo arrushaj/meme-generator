@@ -1,0 +1,106 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    background: #f2f2f2;
+}
+
+h1 {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
+
+.flex-outer {
+    margin: 0 auto;
+}
+
+.flex-outer li {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.flex-outer li label {
+    flex: 1 0 120px;
+    max-width: 240px;
+}
+
+.flex-outer li label + * {
+    flex: 1 0 240px;
+    margin: 5px 0;
+    margin-right: 10%;
+}
+
+button {
+    margin-left: auto;
+    margin-right: 10%;
+    margin-top: 10px;
+}
+
+#memes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.imgDiv {
+    position: relative;
+    text-align: center;
+    max-width: 400px;
+}
+
+.textDivTop {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 15px 0;
+    padding: 0 5px;
+    font-family: impact;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+    text-shadow:2px 2px 0 #000,
+    -2px -2px 0 #000,
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    0px 2px 0 #000,
+    2px 0px 0 #000,
+    0px -2px 0 #000,
+    -2px 0px 0 #000,
+    2px 2px 5px #000;
+    top: 0;
+}
+
+.textDivBottom {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 15px 0;
+    padding: 0 5px;
+    font-family: impact;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+    text-shadow:2px 2px 0 #000,
+    -2px -2px 0 #000,
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    0px 2px 0 #000,
+    2px 0px 0 #000,
+    0px -2px 0 #000,
+    -2px 0px 0 #000,
+    2px 2px 5px #000;
+    bottom: 0;
+
+}
+
+img {
+    max-width: 400px;
+    height: auto;
+}
