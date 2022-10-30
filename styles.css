@@ -50,6 +50,7 @@ button {
     max-width: 400px;
     display: inline-block;
     margin: 5px;
+    vertical-align: top;
 }
 
 .textDivTop {
